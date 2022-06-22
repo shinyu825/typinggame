@@ -1,0 +1,87 @@
+＊{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+body{
+    font-size: 20px;
+    background-color: #99FFFF;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    position: relative;
+    font-size: 30px;
+    color: green;
+}
+
+.marker{
+    width: 100%;
+    height: 16%;
+    background-color: #FF6699;
+    position: absolute;
+    bottom: 5%;
+    z-index: -1;
+}
+
+.startButton{
+    background-color: #333;
+    color: #fff;
+    padding: 4px 60px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.startButton:hover{
+    opacity: 0.7;
+}
+
+.question{
+    color: black;
+}
+
+.clear{
+    color: #03a9f4;
+    font-size: 100px;
+}
+
+.typeForm{
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 38px;
+}
+
+.typeFormWrapper{
+    border-bottom: 1px solid gray;
+}
+
+.gauge{
+    height: 12px;
+    transition: all .3s ease;
+}
+
+.gaugeWrapper{
+    border: 1px solid;
+    height: 12px;
+}
+
+.startButton{
+    font-size: 30px;
+}
+
+.question{
+    font-size: 50px;
+}
